@@ -1,0 +1,9 @@
+
+hjavascript:S1481"@Remove the declaration of the unused 'multiLoginValue' variable.(ßùûÿÿÿÿ8ç®ş×…2
+ejavascript:S1854"=Remove this useless assignment to variable "multiLoginValue".(ßùûÿÿÿÿ8è®ş×…2
+\javascript:S1481"9Remove the declaration of the unused 'redirect' variable.(ƒªË¤8è®ş×…2
+Yjavascript:S1854"6Remove this useless assignment to variable "redirect".(ƒªË¤8è®ş×…2
+ˆjavascript:S6844“"dAnchor used as a button. Anchors are primarily expected to navigate. Use the button element instead.(¿Œ¡Ã8é®ş×…2
+çjavascript:S6848“"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(¿Œ¡Ã8é®ş×…2
+ƒjavascript:S1082“"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(¿Œ¡Ã8é®ş×…2
+~javascript:S6819œ"UUse <output> instead of the "status" role to ensure accessibility across all devices.(ŒŠ‡ûÿÿÿÿÿ8é®ş×…2

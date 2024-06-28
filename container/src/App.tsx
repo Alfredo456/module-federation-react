@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './index.scss';
 import Header from 'components/Header';
+import Auth from 'components/Auth';
 
 const App = () => (
   <>
@@ -13,6 +14,7 @@ const App = () => (
       <div>Language: TypeScript</div>
       <div>CSS: Tailwind</div>
     </div>
+    <Auth />
   </>
 );
 ReactDOM.render(<App />, document.getElementById('app'));
