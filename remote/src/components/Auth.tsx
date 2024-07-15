@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, {useEffect, useState} from 'react';
+import {useNavigate} from 'react-router-dom';
 import AuthService from './auth.service';
 import Swal from 'sweetalert2';
-import { Company } from '../interfaces/company';
+import {Company} from '../interfaces/company';
+import logo from '../assets/img/logo.png';
+import tommo from '../assets/img/tommo.png';
+import './Auth.scss';
 
 const AuthComponent: React.FC = () => {
     const [usr, setUsr] = useState<string>('');
@@ -92,7 +95,7 @@ const AuthComponent: React.FC = () => {
                             <div className="row g-0">
                                 <div className="col-md-6 col-lg-5 d-none d-md-block">
                                     <img
-                                        src="../../../assets/img/tommo.png"
+                                        src={tommo}
                                         alt="login form"
                                         className="img-fluid"
                                         style={{ borderRadius: '1rem 0 0 1rem' }}
@@ -102,7 +105,7 @@ const AuthComponent: React.FC = () => {
                                     <div className="card-body p-4 p-lg-5 text-black">
                                         <form>
                                             <div className="d-flex align-items-center mb-3 pb-1">
-                                                <img src="../../../assets/img/logo.png" id="icon" alt="User Icon" />
+                                                <img src={logo} id="icon" alt="User Icon"/>
                                             </div>
                                             <h5 className="fw-normal mb-3 pb-3" style={{ letterSpacing: '1px' }}>
                                                 Inicio de sesión

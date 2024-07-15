@@ -1,5 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
+const path = require('path');
 
 const deps = require("./package.json").dependencies;
 module.exports = {
@@ -35,6 +36,21 @@ module.exports = {
         use: {
           loader: "babel-loader",
         },
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+              context: path.resolve(__dirname, 'src/assets/img'),
+              outputPath: 'images',
+              publicPath: 'images',
+              useRelativePaths: true,
+            },
+          },
+        ],
       },
     ],
   },

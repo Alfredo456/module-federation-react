@@ -23,20 +23,10 @@ K
 container/package-lock.json,3\e\3eadc9824340acf858f9db594ca6f10b4fa33dd0
 F
 container/package.json,8\6\864dbde9e1156f0f9547dbd88d1a467a90da82ed
-N
-remote/src/components/Auth.jsx,f\0\f08da3c8b4c06265c5c456d5475eb41095a974f4
 E
 remote/src/Header.tsx,5\3\53f69fa3b206b822dae853e1355102632e4d3634
-V
-&remote/src/components/companiesMock.js,8\f\8fb7ae2445240885a91ed36b77bb8d81f36aa053
 N
 remote/src/components/Auth.tsx,5\5\55e8acc9a9f6837866de2c94de19860fce6b430e
-U
-%remote/src/components/auth.service.js,8\d\8d68a3bdbca37aa29a70cac3cec9bda474c52ab6
-V
-&remote/src/components/auth-response.ts,2\0\20c369b39a5f0dbe28fbe7a6906698afa0e9415a
-P
- remote/src/components/company.ts,0\6\0619d88593d0bc9eba9f1ec3f6528166bcc9ec3a
 V
 &remote/src/interfaces/auth-response.ts,3\4\342f7afdc35eb7b03d8ec90112c137b51fa747c8
 U

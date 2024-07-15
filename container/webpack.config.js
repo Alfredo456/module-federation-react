@@ -42,9 +42,8 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       name: "container",
-      filename: "remoteEntry.js",
       remotes: {
-        'components': 'remote@http://localhost:4006/remoteEntry.js',
+        'remote': 'remote@http://localhost:4006/remoteEntry.js',
       },
       exposes: {},
       shared: {
